@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Upload CSV</title>
+    </head>
+    <body>
+        <h1>Upload een csv bestand</h1>
+
+        <form method="post" th:action="@{/upload}" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".csv">
+            <input type="submit" value="Upload">
+        </form>
+
+        <span th:text="${uploadStatus}"></span>
+    </body>
+</html>

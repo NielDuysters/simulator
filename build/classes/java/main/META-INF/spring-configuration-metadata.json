@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "messaging",
+      "type": "be.kdg.sa.simulator.Messaging.MessagingConfig",
+      "sourceType": "be.kdg.sa.simulator.Messaging.MessagingConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "messaging.host",
+      "type": "java.lang.String",
+      "sourceType": "be.kdg.sa.simulator.Messaging.MessagingConfig"
+    },
+    {
+      "name": "messaging.pass",
+      "type": "java.lang.String",
+      "sourceType": "be.kdg.sa.simulator.Messaging.MessagingConfig"
+    },
+    {
+      "name": "messaging.port",
+      "type": "java.lang.Integer",
+      "sourceType": "be.kdg.sa.simulator.Messaging.MessagingConfig"
+    },
+    {
+      "name": "messaging.user",
+      "type": "java.lang.String",
+      "sourceType": "be.kdg.sa.simulator.Messaging.MessagingConfig"
+    },
+    {
+      "name": "messaging.vhost",
+      "type": "java.lang.String",
+      "sourceType": "be.kdg.sa.simulator.Messaging.MessagingConfig"
+    }
+  ],
+  "hints": []
+}
